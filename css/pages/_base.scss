@@ -1,0 +1,26 @@
+@use "../config/variables" as v;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}

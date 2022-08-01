@@ -1,0 +1,36 @@
+@use "../config/variables" as v;
+
+header {
+  background-color: rgba($color: v.$sub-color, $alpha: 0.7);
+  height: 100px;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+    .header-title {
+      display: flex;
+      align-items: center;
+
+      a {
+        color: rgba($color: v.$main-color, $alpha: 0.7);
+        font-size: 3rem;
+      }
+    }
+    .header-menu {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 10px;
+
+      .menu-list {
+        margin-left: 20px;
+
+        a {
+          color: rgba($color: v.$main-color, $alpha: 0.7);
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
