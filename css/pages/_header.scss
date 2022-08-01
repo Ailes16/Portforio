@@ -3,6 +3,10 @@
 header {
   background-color: rgba($color: v.$sub-color, $alpha: 0.7);
   height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 
   nav {
     display: flex;

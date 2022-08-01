@@ -5,6 +5,40 @@ body {
   color: #432;
 }
 
+header {
+  background-color: rgba(136, 136, 136, 0.7);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+header nav .header-title {
+  display: flex;
+  align-items: center;
+}
+header nav .header-title a {
+  color: rgba(179, 208, 215, 0.7);
+  font-size: 3rem;
+}
+header nav .header-menu {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+header nav .header-menu .menu-list {
+  margin-left: 20px;
+}
+header nav .header-menu .menu-list a {
+  color: rgba(179, 208, 215, 0.7);
+  font-size: 1.2rem;
+}
+
 h1,
 h2,
 h3,
@@ -34,56 +68,14 @@ a {
   background-repeat: no-repeat;
 }
 
-header {
-  background-color: rgba(136, 136, 136, 0.7);
-  height: 100px;
-}
-header nav {
-  display: flex;
-  justify-content: space-between;
-  height: 100px;
-}
-header nav .header-title {
-  display: flex;
-  align-items: center;
-}
-header nav .header-title a {
-  color: rgba(179, 208, 215, 0.7);
-  font-size: 3rem;
-}
-header nav .header-menu {
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 10px;
-}
-header nav .header-menu .menu-list {
-  margin-left: 20px;
-}
-header nav .header-menu .menu-list a {
-  color: rgba(179, 208, 215, 0.7);
-  font-size: 1.2rem;
-}
-
 #home {
   font-size: 16px;
   background-color: #ddd;
-  background-image: url(../img/coffee1.jpeg);
+  background-image: url(../../img/coffee1.jpeg);
   min-height: 100vh;
 }
-#home section {
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-#home section .left-section {
-  margin-right: 40px;
-}
-#home section .left-section .fa-computer {
-  font-size: 20rem;
-  color: #b3d0d7;
-}
 #home section .right-section {
+  padding-top: 140px;
   width: 800px;
 }
 #home section .right-section .secondary-title {
@@ -107,5 +99,19 @@ header nav .header-menu .menu-list a {
 }
 #home section .right-section .primary-text p a {
   color: #0bd;
+}
+
+#about section {
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+#about .full-snowboard {
+  background-image: url(../../img/snowboard.PNG);
+  background-position: center top;
+}
+#about .full-breakin2 {
+  background-image: url(../../img/breakin2.JPG);
+  background-position: center top;
 }
 /*# sourceMappingURL=style.css.map */

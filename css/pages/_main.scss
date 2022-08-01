@@ -3,24 +3,12 @@
 #home {
   font-size: 16px;
   background-color: v.$base-color;
-  background-image: url(../img/coffee1.jpeg);
+  background-image: url(../../img/coffee1.jpeg);
   min-height: 100vh;
 
   section {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-
-    .left-section {
-      margin-right: 40px;
-
-      .fa-computer {
-        font-size: 20rem;
-        color: v.$main-color;
-      }
-    }
     .right-section {
+      padding-top: 140px;
       width: 800px;
 
       .secondary-title {

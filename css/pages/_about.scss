@@ -1,0 +1,17 @@
+@use "../config/variables" as v;
+
+#about {
+  section {
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+  .full-snowboard {
+    background-image: url(../../img/snowboard.PNG);
+    background-position: center top;
+  }
+  .full-breakin2 {
+    background-image: url(../../img/breakin2.JPG);
+    background-position: center top;
+  }
+}
