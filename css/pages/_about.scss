@@ -6,12 +6,33 @@
     width: 100%;
     height: 100vh;
   }
+  h1 {
+    font-size: 5rem;
+  }
   .full-snowboard {
     background-image: url(../../img/snowboard.PNG);
     background-position: center top;
+
+    .inner {
+      padding-top: 60vh;
+      padding-left: 40vw;
+    }
   }
   .full-breakin2 {
     background-image: url(../../img/breakin2.JPG);
     background-position: center top;
+
+    .inner {
+      padding-top: 40vh;
+    }
+  }
+  .full-sora {
+    background-image: url(../../img/sora.JPG);
+    background-position: center top;
+
+    .inner {
+      padding-top: 30vh;
+      padding-left: 40vw;
+    }
   }
 }

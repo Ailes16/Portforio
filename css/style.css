@@ -106,12 +106,30 @@ a {
   width: 100%;
   height: 100vh;
 }
+#about h1 {
+  font-size: 5rem;
+}
 #about .full-snowboard {
   background-image: url(../../img/snowboard.PNG);
   background-position: center top;
 }
+#about .full-snowboard .inner {
+  padding-top: 60vh;
+  padding-left: 40vw;
+}
 #about .full-breakin2 {
   background-image: url(../../img/breakin2.JPG);
   background-position: center top;
+}
+#about .full-breakin2 .inner {
+  padding-top: 40vh;
+}
+#about .full-sora {
+  background-image: url(../../img/sora.JPG);
+  background-position: center top;
+}
+#about .full-sora .inner {
+  padding-top: 30vh;
+  padding-left: 40vw;
 }
 /*# sourceMappingURL=style.css.map */
