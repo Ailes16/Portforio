@@ -5,10 +5,12 @@
   background-color: v.$base-color;
   background-image: url(../../img/coffee1.jpeg);
   min-height: 100vh;
+  position: relative;
 
   section {
     .right-section {
-      padding-top: 140px;
+      position: absolute;
+      margin-top: 140px;
       width: 800px;
 
       .secondary-title {

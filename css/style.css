@@ -10,6 +10,7 @@ header {
   height: 100px;
   width: 100%;
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
 }
@@ -73,9 +74,11 @@ a {
   background-color: #ddd;
   background-image: url(../../img/coffee1.jpeg);
   min-height: 100vh;
+  position: relative;
 }
 #home section .right-section {
-  padding-top: 140px;
+  position: absolute;
+  margin-top: 140px;
   width: 800px;
 }
 #home section .right-section .secondary-title {
@@ -105,6 +108,10 @@ a {
   background-size: cover;
   width: 100%;
   height: 100vh;
+  position: relative;
+}
+#about .inner {
+  position: absolute;
 }
 #about h1 {
   font-size: 5rem;
@@ -114,22 +121,27 @@ a {
   background-position: center top;
 }
 #about .full-snowboard .inner {
-  padding-top: 60vh;
-  padding-left: 40vw;
+  margin-top: 60vh;
+  margin-left: 50vw;
 }
 #about .full-breakin2 {
   background-image: url(../../img/breakin2.JPG);
   background-position: center top;
 }
 #about .full-breakin2 .inner {
-  padding-top: 40vh;
+  margin-top: 60vh;
+  margin-left: 10vw;
 }
 #about .full-sora {
   background-image: url(../../img/sora.JPG);
   background-position: center top;
 }
 #about .full-sora .inner {
-  padding-top: 30vh;
-  padding-left: 40vw;
+  margin-top: 15vh;
+  margin-left: 50vw;
+}
+
+#works h1 {
+  font-size: 5rem;
 }
 /*# sourceMappingURL=style.css.map */
