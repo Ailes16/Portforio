@@ -11,7 +11,7 @@
     .right-section {
       position: absolute;
       margin-top: 140px;
-      width: 800px;
+      max-width: 90vw;
 
       .secondary-title {
         color: v.$text-color;

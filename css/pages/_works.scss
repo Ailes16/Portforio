@@ -1,7 +1,29 @@
 @use "../config/variables" as v;
 
 #works {
-  h1 {
-    font-size: 5rem;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+  background-color: v.$base-color;
+
+  img {
+    width: 450px;
+    height: auto;
+  }
+
+  .portforio {
+    position: absolute;
+    margin-top: 10vh;
+
+    h1 {
+      font-size: 5rem;
+    }
+    .container {
+      display: grid;
+      gap: 30px;
+      grid-template-columns: 1fr 1fr;
+    }
   }
 }
