@@ -166,4 +166,19 @@ a {
   font-size: 2rem;
   color: #0bd;
 }
+
+#contact {
+  background-image: url(../../img/nature.jpeg);
+}
+#contact .contact h1 {
+  font-size: 5rem;
+}
+#contact .contact label {
+  display: block;
+}
+#contact .contact input[type=text],
+#contact .contact input[type=email],
+#contact .contact textarea {
+  border: solid 1px rgba(255, 255, 255, 0.5);
+}
 /*# sourceMappingURL=style.css.map */
